@@ -27,6 +27,7 @@ Voordat ik kon beginnen met het ophalen van mijn Github data moest ik eers een a
 
 ### Testen van graphql layout
 ![Schermafbeelding 2022-06-30 om 13 36 03](https://user-images.githubusercontent.com/70690100/176667889-8dad8da9-4095-4fb8-b286-4a860ba5febe.png)
+
 Voordat ik ging beginnen met code schrijven heb ik eerst de structuur van mijn graphql layout getest in de graphql explorer pagina van Github. Deze pagina is speciaal om de structuur van jouw graphql te testen. Na een paar aanpassingen kreeg ik de juiste layout en kon ik daadwerkelijk met code beginnen om de data van mijn Github profiel op te halen.
 
 ### Ophalen van Github data
