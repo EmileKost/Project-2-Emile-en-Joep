@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: cairo;
+    src: url('fonts/Cairo-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: cairoBold;
+    src: url('fonts/Cairo-Bold.ttf');
+}
+
+body {
+    font-family: cairo, sans-serif;
+    color: #f8f9fa;
+    background-color: #00171f;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+header svg {
+    margin-top: 10px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+h1:hover {
+   text-decoration: underline #fca311;
+}
+
+main {
+    width: 100%;
+
+}
+
+main article:first-of-type {
+    width: 60%;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding-left: 60px;
+}
+
+main article:first-of-type p {
+    border-left: 1.5px solid #fca311;
+    padding-left: 15px;
+}
+
+main article:first-of-type p:hover {
+    color: #fca311;
+    border-left: 1.5px solid #f8f9fa;
+} 
+
+form {
+    margin-top: 50px;
+    padding-left: 60px;
+}
+
+@media  screen and (max-width: 500px) {
+    form {
+        margin-top: 75px;
+    }
+    article:first-of-type {
+        width: 100%;
+    }
+}
+
+#searchInput{
+    height: 30px;
+    width: 50%;
+    border: 1px solid #fca311;
+    background-color: #00171f;
+}
+
+#searchInput::placeholder {
+    padding-left: 15px;
+    color: #f8f9fa;
+    font-family: cairo, sans-serif;
+}
+
+#searchInput:focus {
+    color: #f8f9fa;
+    padding-left: 15px;
+    font-family: cairo, sans-serif;
+}
+
+#submit {
+    border: none;
+    height: 32px;
+    width: 120px;
+    background-color: #fca311;
+    color: #f8f9fa;
+    font-family: cairo, sans-serif;
+}
+
+#list {
+    margin-top: 20px;
+    padding-left: 60px;
+}
+
+h3 {
+    font-family: cairoBold, sans-serif;
+    font-size: 25px;
+}
+
+#list div {
+    width: 80%;
+    padding: 50px;
+    border-left: 1.5px solid #fca311;
+    background-color: #161a1d;
+    margin-top: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+a {
+    color: #fca311;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline #fca311;
+}
+
+/* e9ecef */
